@@ -1,4 +1,4 @@
-# 🎈 Blank app template
+# 🎈 I Leveraged Streamlit Blank App Template to Develop This App!
 
 A simple Streamlit app template for you to modify!
 
