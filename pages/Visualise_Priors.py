@@ -13,7 +13,7 @@
 #   limitations under the License.
 """Streamlit page for visualising priors."""
 
-import pages.prior_functions as pf
+import prior_functions as pf
 
 import streamlit as st
 
