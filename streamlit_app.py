@@ -129,6 +129,8 @@ for variable, coef in model.params.items():
   if variable != 'const':
     st.write(f"Slope for {variable}: {coef}")
 
+st.write ("Note: all 3 media channels are statistically significant, however, if we look at the coefficient, newspaper has negative correlations while both TV and radio are positively correlated to sales growth ")
+
 p_value = model.pvalues[variable]
 st.write(f"P-value for {variable}: {p_value}")
 if p_value < 0.05:
@@ -149,4 +151,4 @@ plot_normal_prob (residuals)
 #Plot predicted vs. observed values
 st.subheader ("Predicted vs.Observed Plot")
 plot_predicted_vs_observed(y,predictions)
-st.write ("Please upload your CSV file to proceed.")
+st. write ("However, this is just a simiple mmm analysis, and more transformation needs to be done to cover ad stock and statuaration and more realistic datasets and confounding elements such as seasonality and product price need to be considered.")
