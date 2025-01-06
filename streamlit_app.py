@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd 
 
-st.title("😎 My new app - check this out ")
+st.title("😎 Check this out! My new web app to facilitate Marketing Mix Modeling analysis!")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Thanks to Stream Cloud Community that inspired me for this project [docs.streamlit.io](https://docs.streamlit.io/)."
 )
 
-st. title ("Advertising Analytics Leveraging MMM")
+st. title ("MMM Advertising Analytics - Basic")
 uploaded_file = st.file_uploader ("Upload your advertising csv file", type = "csv")
 if uploaded_file is not None: 
     dat = pd.read_csv(uploaded_file)
