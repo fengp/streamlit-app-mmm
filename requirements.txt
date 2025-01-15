@@ -7,3 +7,9 @@ scipy==1.11.0
 preliz==0.6.3
 pymc-marketing==0.6.0
 typing==3.7.4.3
+matplotlib
+seaborn
+statsmodels
+numpy
+pandas
+scipy
