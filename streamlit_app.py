@@ -3,8 +3,10 @@ import pandas as pd
 
 st.title("😎 Check this out! My new web app to facilitate Marketing Mix Modeling analysis!")
 st.write(
-    "Thanks to Stream Cloud Community that inspired me for this project [docs.streamlit.io](https://docs.streamlit.io/)."
+    "The goal of this project is to leverage marketing mix modeling analysis to help marketer and advertiser to optimize the budget allocations among diverse media channels to achieve the maximium return on ad spend (ROAS)."
 )
+st.write("Thanks to Stream Cloud Community that inspired me for this project [docs.streamlit.io](https://docs.streamlit.io/).")
+st.write ("Also special thanks to Pymc-marketing open source library")
 
 st. title ("MMM Advertising Analytics - Basic")
 uploaded_file = st.file_uploader ("Upload your advertising csv file", type = "csv")
